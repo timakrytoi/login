@@ -1,0 +1,95 @@
+* {
+margin:0 auto;
+box-sizing:border box;
+text-decoration: none;
+}
+
+html,body {
+height: 100%;
+background: rgb(219, 219, 255);
+display: flex;
+align-items: center;
+}
+
+
+label {
+display: flex;
+flex-direction: column;
+}
+
+#sign-up {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 35px;
+background: white;
+border: 1px solid black;
+border-radius: 10px;
+gap: 10px;
+max-width: 320px;
+}
+
+.a1 {
+color: rgb(120, 159, 232);
+}
+
+.first-button {
+background: rgb(120, 159, 232);
+display: flex;
+justify-content: center;
+align-items: center;
+width: 200px;
+border-radius: 15px;
+}
+
+
+.text-1 {
+display: flex;
+flex-direction: row;
+text-align:center;
+gap: 5px;
+}
+
+.facebook {
+gap: 10px;
+background: rgb(122, 122, 255);
+border-radius: 15px;
+display: flex;
+justify-content: flex-start;
+padding: 10px;
+width: 200px;
+}
+
+
+.google {
+gap: 10px;
+background: rgb(202, 213, 255);
+border-radius: 15px;
+display: flex;
+justify-content: flex-start;
+padding: 10px;
+width: 200px;
+}
+
+
+.divider {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+
+.divider hr {
+width: 80px;
+flex: 1;
+border: none;
+height: 2px;
+background-color: black;
+}
+
+.divider span {
+font-size: 14px;
+color: #888;
+font-weight: bold;
+}
